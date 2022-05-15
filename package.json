@@ -1,0 +1,23 @@
+{
+    "name": "react-todo",
+    "description": "React ToDo app with TypeScript",
+    "version": "0.0.0",
+    "author": "thkim7527",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "start": "vite",
+        "prebuild": "tsc",
+        "build": "vite build"
+    },
+    "dependencies": {
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0",
+        "typescript": "^4.6.4",
+        "vite": "^2.9.9"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.9",
+        "@types/react-dom": "^18.0.4"
+    }
+}

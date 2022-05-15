@@ -1,0 +1,16 @@
+body {
+    font-family: "Roboto", sans-serif;
+
+    --font-size-normal: 25px;
+    --font-size-large: 50px;
+    --font-size-title: 75px;
+
+    --background-color: rgba(0, 0, 0, 0.25);
+    --text-color: rgba(255, 255, 255, 0.75);
+    --placholder-color: rgba(255, 255, 255, 0.25);
+
+    --margin-normal: 5px;
+    --margin-large: 10px;
+
+    --border-radius: 10px;
+}
