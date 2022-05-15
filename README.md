@@ -2,7 +2,7 @@
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.6.4-3178C6.svg?logo=typescript)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18.1.0-61DAFB.svg?logo=react)](https://reactjs.org/)
-[![React](https://img.shields.io/badge/esbuild-0.14.39-FFCF00.svg?logo=esbuild)](https://esbuild.github.io/)
+[![React](https://img.shields.io/badge/Vite-2.9.9-646CFF.svg?logo=vite)](https://vitejs.dev/)
 
 ## ToDo
 - Save in LocalStorage
