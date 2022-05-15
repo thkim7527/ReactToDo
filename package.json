@@ -1,7 +1,7 @@
 {
     "name": "react-todo",
-    "description": "React ToDo app with TypeScript",
-    "version": "0.0.0",
+    "description": "React ToDo app for practice",
+    "version": "0.0.1",
     "author": "thkim7527",
     "license": "MIT",
     "type": "module",
