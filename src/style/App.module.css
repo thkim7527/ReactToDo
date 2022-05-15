@@ -2,11 +2,25 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
-    background: url("/background.jpg") no-repeat center center fixed;
+::selection {
+    background-color: rgba(225, 225, 225, 0.25);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
 }
 
 h1 {
     text-align: center;
+    color: white;
+    text-shadow: var(--shadow);
     font-size: var(--font-size-title);
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: var(--font-size-large);
+    }
 }

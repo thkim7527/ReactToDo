@@ -3,20 +3,28 @@
     position: relative;
     background-color: var(--background-color);
     border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    transition: var(--item-transition);
+}
+
+.Item:hover {
+    transform: scaleX(1.05) scaleY(1.05);
+    transition: var(--button-transition);
+}
+
+.Content, .Title {
+    border: none;
+    margin: var(--margin-normal);
+    padding: var(--text-padding);
+    color: var(--text-color);
 }
 
 .Content {
-    border: none;
-    margin: var(--margin-normal);
     font-size: var(--font-size-normal);
-    color: var(--text-color);
 }
 
 .Title {
-    border: none;
-    margin: var(--margin-normal);
     font-size: var(--font-size-large);
-    color: var(--text-color);
 }
 
 .Button {
@@ -25,12 +33,20 @@
     top: var(--margin-normal);
 
     border: none;
-    border-radius: var(--border-radius);
+    outline: none;
     
     font-size: var(--font-size-normal);
+    cursor: pointer;
+    user-select: none;
     background-color: transparent;
+    transition: var(--button-transition);
 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.Button:hover {
+    color: rgb(255, 0, 0);
+    transition: var(--button-transition);
 }

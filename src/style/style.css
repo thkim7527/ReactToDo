@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
+    background: linear-gradient(#83a4d4, #b6fbff);
 
     --font-size-normal: 25px;
     --font-size-large: 50px;
@@ -11,6 +12,12 @@ body {
 
     --margin-normal: 5px;
     --margin-large: 10px;
+    --text-padding: 5px;
 
     --border-radius: 10px;
+
+    --button-transition: ease-in 0.1s;
+    --item-transition: ease-in 0.2s;
+
+    --shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }

@@ -7,6 +7,14 @@ import styles from "../style/App.module.css";
 
 function App() {
     const [tasks, setTasks] = useState<Task[]>([
+        { title: "Sample", content: "This is Sample Content!" },
+        { title: "Sample", content: "This is Sample Content!" },
+        { title: "Sample", content: "This is Sample Content!" },
+        { title: "Sample", content: "This is Sample Content!" },
+        { title: "Sample", content: "This is Sample Content!" },
+        { title: "Sample", content: "This is Sample Content!" },
+        { title: "Sample", content: "This is Sample Content!" },
+        { title: "Sample", content: "This is Sample Content!" },
         { title: "Sample", content: "This is Sample Content!" }
     ]);
 

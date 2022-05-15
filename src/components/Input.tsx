@@ -16,18 +16,19 @@ function Input({ tasks, setTasks }: AddProps) {
         const contentInput = form.querySelector("#content") as HTMLInputElement;
 
         setTasks([
-            ...tasks, { title: titleInput.value, content: contentInput.value }
+            { title: titleInput.value, content: contentInput.value }, ...tasks
         ]);
 
         form.reset();
+        titleInput.focus();
     };
 
     return (
         <>
             <div className={styles.Input}>
                 <form className={styles.Form} onSubmit={handleSubmit}>
-                    <input type="text" id="title" required className={styles.Title} />
-                    <input type="text" id="content" className={styles.Content} required />
+                    <input type="text" id="title" required autoFocus className={styles.Title} placeholder="Title" />
+                    <input type="text" id="content" required className={styles.Content} placeholder="Content" />
                     <button type="submit" value="Add" className={styles.Button}>
                         <span className="material-symbols-outlined">done</span>
                     </button>

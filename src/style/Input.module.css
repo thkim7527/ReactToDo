@@ -1,5 +1,11 @@
-.Add {
+.Input {
     margin: var(--margin-large);
+}
+
+@media (max-width: 700px) {
+    .Title, .Content {
+        width: 150px;
+    }
 }
 
 .Form {
@@ -10,12 +16,15 @@
 
 .Title, .Content {
     margin: var(--margin-normal);
+    padding: var(--text-padding);
     border: none;
     border-radius: var(--border-radius);
-    
+    outline: none;
+
     font-size: var(--font-size-normal);
     background-color: var(--background-color);
     color: var(--text-color);
+    box-shadow: var(--shadow);
 }
 
 .Title::placeholder, .Content::placeholder {
@@ -24,12 +33,20 @@
 
 .Button {
     border: none;
-    border-radius: var(--border-radius);
+    outline: none;
 
     font-size: var(--font-size-normal);
+    cursor: pointer;
+    user-select: none;
     background-color: transparent;
+    transition: var(--button-transition);
 
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+
+.Button:hover {
+    color: rgb(0, 255, 0);
+    transition: var(--button-transition);
 }
