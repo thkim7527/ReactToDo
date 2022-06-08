@@ -1,3 +1,12 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
 body {
     font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     background: linear-gradient(#83a4d4, #b6fbff);
