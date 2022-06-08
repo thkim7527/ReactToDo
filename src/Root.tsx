@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 
 import App from "./components/App";
 
-import "./style/style.css";
+import "./style/Root.css";
 
 ReactDOM
     .createRoot(document.querySelector("#root")!)
