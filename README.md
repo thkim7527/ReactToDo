@@ -6,9 +6,10 @@
 
 ## ToDo
 - Save in LocalStorage
-- Fix text and background color
 - Responsive design
-- Github Actions?
+- SCSS
+<!-- - Fix text and background color -->
+<!-- - Github Actions? -->
 
 ## Scripts
 ```npm start```: Run React app with Vite
