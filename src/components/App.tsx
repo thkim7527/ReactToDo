@@ -9,12 +9,6 @@ function App() {
     const [tasks, setTasks] = useState<Task[]>([
         { title: "Sample", content: "This is Sample Content!" },
         { title: "Sample", content: "This is Sample Content!" },
-        { title: "Sample", content: "This is Sample Content!" },
-        { title: "Sample", content: "This is Sample Content!" },
-        { title: "Sample", content: "This is Sample Content!" },
-        { title: "Sample", content: "This is Sample Content!" },
-        { title: "Sample", content: "This is Sample Content!" },
-        { title: "Sample", content: "This is Sample Content!" },
         { title: "Sample", content: "This is Sample Content!" }
     ]);
 
